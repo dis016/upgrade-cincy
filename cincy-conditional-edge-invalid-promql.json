@@ -23,7 +23,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "\cluster_version"
+                "promql": "max(cluster_version)"
               }
             }
           ]
