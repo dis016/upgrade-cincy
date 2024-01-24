@@ -5,7 +5,7 @@
           "payload": "registry.ci.openshift.org/ocp/release@sha256:447793c69be4d61c35a43c242b3341890e3345d84e523dc08a5da42eac41e290",
         "metadata": {
           "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasetag/4.14.0-0.nightly-2024-01-18-061723",
-          "io.openshift.upgrades.graph.release.channels": "eus-4.16,stable-4.15,nightly-4.16"
+          "io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.15"
         }
       },
       {
@@ -13,20 +13,11 @@
         "payload": "registry.ci.openshift.org/ocp/release@sha256:6c15cec5f5cda262bf2445edd72b6e36b888cc7759ead8d9a49a790b41609cb4",
         "metadata": {
           "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.15.0-0.nightly/release/4.15.0-0.nightly-2024-01-22-160236",
-            "io.openshift.upgrades.graph.release.channels": "eus-4.16,stable-4.15,nightly-4.16"
-        }
-      },
-      {
-        "version": "4.16.0-0.nightly-2024-01-24-031529",
-        "payload": "registry.ci.openshift.org/ocp/release@sha256:475390ba66d27ecdc9bb1a9a20baa183226cdf0e2490eada68234e7032d1ffda",
-        "metadata": {
-          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasetag/4.16.0-0.nightly-2024-01-24-031529",
-            "io.openshift.upgrades.graph.release.channels": "eus-4.16,stable-4.15,nightly-4.16"
+            "io.openshift.upgrades.graph.release.channels": "channel-a,channel-b,nightly-4.15"
         }
       }
     ],
     "edges": [
-      [0,1],
-      [1,2]
+      [0,1]
     ]
   }
