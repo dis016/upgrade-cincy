@@ -9,7 +9,7 @@
       "payload": "quay.io/openshift-release-dev/ocp-release@sha256:6c236c400d3bad9b2b54d8a3b247c508f6f13511d37666de1eecca8e43bce0f6"
     },
     {
-      "version": "4.16.0-rc.5",
+      "version": "4.16.0-rc.6",
       "payload": "quay.io/openshift-release-dev/ocp-release@sha256:19f29913bacdebaad17dea58a617141c3f6c3a072d0e00a35473943993c78d2d"
     }
   ],
