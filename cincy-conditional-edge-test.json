@@ -24,15 +24,12 @@
       ],
       "risks": [
         {
-          "url": "https://issues.redhat.com/browse/OTA-1297",
-          "name": "TechPreviewSignatureStoresInDefault",
-          "message": "Standalone clusters in the default feature set will fail to verify signatures when asked to update out to later releases.",
+          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4-stable/release/4.16.0-rc.4",
+          "name": "ReleaseIsRejected",
+          "message": "Too many CI failures on this release, so do not update to it",
           "matchingRules": [
             {
-              "type": "PromQL",
-              "promql": {
-                "promql": "0 * group by (invoker) (cluster_installer{_id=\"\",invoker=\"hypershift\"})\nor on (_id)\ngroup by (name) (cluster_feature_set{_id=\"\",name=\"\"})\nor on (_id)\n0 * group by (name) (cluster_feature_set{_id=\"\"})\n"
-              }
+              "type": "Always"
             }
           ]
         }
