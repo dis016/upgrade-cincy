@@ -1,16 +1,16 @@
 {
   "nodes": [
     {
-      "version": "4.16.0-rc.3",
-      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:31cdf34b1957996d5c79c48466abab2fcfb9d984369d2e14723e4edfe3e727ce"
+      "version": "4.17.0-rc.3",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:8073209e3aff4fef0f2f705a3868da3c56e85575010f713802f4ef651127180a"
     },
     {
-      "version": "4.16.0-rc.4",
-      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:6c236c400d3bad9b2b54d8a3b247c508f6f13511d37666de1eecca8e43bce0f6"
+      "version": "4.17.0-rc.4",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:fcc056019a14e8a2abcdcc4dfa56a5daf3bbfe091bf1be037148d8e6a6a1c167"
     },
     {
-      "version": "4.16.0-rc.6",
-      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:19f29913bacdebaad17dea58a617141c3f6c3a072d0e00a35473943993c78d2d"
+      "version": "4.17.0-rc.5",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:5b1399dc8175d7d26611c2541962d101948cba6a951ed3dd51cddf75afbab303"
     }
   ],
   "edges": [
@@ -20,7 +20,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.16.0-rc.3", "to": "4.16.0-rc.4"}
+        {"from": "4.17.0-rc.3", "to": "4.17.0-rc.4"}
       ],
       "risks": [
         {
