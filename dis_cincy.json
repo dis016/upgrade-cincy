@@ -2,9 +2,9 @@
   "nodes": [
     {
       "version": "4.18.0-0.nightly-multi-2024-11-02-235811",
-      "payload": "example.com@sha256:ab2fe4bb965e4a1e68a1422aef5b2fd6cbde179ccf8ef8c35b4b56fddbf3b6a7",
+      "payload": "registry.build09.ci.openshift.org/ci-ln-841zhr2/release@sha256:e7e7286b2360b71d8cb97d9a89ae1ac2d114627b338b8d3493cd3baa09e19653",
       "metadata": {
-        "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.14.0-0.nightly/release/4.14.0-0.nightly-2024-01-08-052221",
+        "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.18.0-0.nightly/release/4.18.0-0.nightly-multi-2024-11-02-235811",
 	"io.openshift.upgrades.graph.release.channels": "nightly-4.18"
       }
     },
