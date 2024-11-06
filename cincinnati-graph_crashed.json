@@ -1,0 +1,19 @@
+ {
+   "nodes": [
+     {
+       "payload": "registry.build09.ci.openshift.org/ci-ln-xnqf172/release@sha256:202c5dbd8b440835bef8d1ce4568a23316a43b0f1f6525f3c1213790678c82d4",
+       "version": "4.18.0-0.test-2024-11-05-083159-ci-ln-xnqf172-latest",
+       "metadata": {
+	          "io.openshift.upgrades.graph.release.channels": "channel-a"
+        }
+     },
+     {
+       "payload": "quay.io/openshift-release-dev/ocp-release@sha256:0000000000000000000000000000000000000000000000000000000000000000",
+       "version": "4.18.0-always-recommended",
+       "metadata": {
+	          "io.openshift.upgrades.graph.release.channels": "channel-a"
+        }
+     }
+   ],
+   "edges": [[0,1]]
+ }
