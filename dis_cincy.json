@@ -1,24 +1,37 @@
 {
   "nodes": [
     {
-      "version": "4.18.0-0.nightly-multi-2024-11-02-235811",
-      "payload": "registry.build09.ci.openshift.org/ci-ln-841zhr2/release@sha256:e7e7286b2360b71d8cb97d9a89ae1ac2d114627b338b8d3493cd3baa09e19653",
-      "metadata": {
-        "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.18.0-0.nightly/release/4.18.0-0.nightly-multi-2024-11-02-235811",
-	"io.openshift.upgrades.graph.release.channels": "nightly-4.18"
-      }
+      "version": "4.18.0-0.nightly-2024-12-16-065305",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:9d715b93f32c8591f2993fe208018cb0247833cc9c3c49754dc67e4a43a3e1b7"
     },
     {
-      "version": "4.19.0-0.nightly-multi-2024-11-02-235811",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:12a7d1128e9079f3a8c1ed3666b6874452d0ca961695517005dafdeeb2744d1a",
-      "metadata": {
-        "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4.14.0-0.nightly/release/4.14.0-0.nightly-2024-01-08-125129",
-	"io.openshift.upgrades.graph.release.channels": "nightly-4.18"
-      }
+      "version": "4.19.0-0.nightly-2024-12-16-194143",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:e474d91b23fdcfd2de7732442c9c985b0000a6560f7f5db14461f1c92105e8da"
     }
   ],
   "edges": [
     [0,1]
+  ],
+  "conditionalEdges":[
+    {
+      "edges": [
+        {"from": "4.18.0-0.nightly-2024-12-16-065305", "to": "4.19.0-0.nightly-2024-12-16-194143"}
+      ],
+      "risks": [
+        {
+          "url": "https://bug.example.com/a",
+          "name": "SomeInvokerThing",
+          "message": "On clusters on default invoker user, this imaginary bug can happen.",
+          "matchingRules": [
+            {
+              "type": "PromQL",
+              "promql": {
+                "promql": "cluster_installer"
+              }
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
-
