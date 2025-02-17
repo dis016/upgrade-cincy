@@ -1,18 +1,18 @@
 {
   "nodes": [
     {
-      "version": "4.17.0-0.nightly-2024-09-23-090803",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:37b594f922f64946fb06e146928e75da05b63fe45cb683c50ff0a9ffc668d648"
+      "version": "4.18.0-rc.5-x86_64",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:0644a286c7480945553904ef8775bb75ca950287ea1c9ad6cc8ff56890aebc05"
     },
     {
-      "version": "4.18.0-0.nightly-2024-09-23-182657",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:389a816110b295ec6186580b841e55ea5c0c23fdd4e3db6bbd1ef146aa769641"
+      "version": "4.18.0-rc.6-x86_64",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:1d261c178ac128e85455f370a78f3fea4492cd5c0367888933fe3a5b48c43c84"
     }
   ],
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.17.0-0.nightly-2024-09-23-090803", "to": "4.18.0-0.nightly-2024-09-23-182657"}
+        {"from": "4.18.0-rc.5-x86_64", "to": "4.18.0-rc.6-x86_64"}
       ],
       "risks": [
         {
@@ -23,7 +23,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "0 * group(cluster_version)"
+                "promql": "0 * group1(cluster_version)"
               }
             }
           ]
