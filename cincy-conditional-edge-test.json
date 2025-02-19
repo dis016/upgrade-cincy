@@ -24,7 +24,7 @@
       ],
       "risks": [
         {
-          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4-stable/release/4.16.0-rc.4",
+          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4-stable/release/4.18.0-rc.8",
           "name": "ReleaseIsRejected",
           "message": "Too many CI failures on this release, so do not update to it",
           "matchingRules": [
