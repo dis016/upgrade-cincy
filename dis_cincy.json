@@ -8,7 +8,7 @@
         }
     },
     {
-      "version": "4.19.0-0.nightly-2025-02-20-054819",
+      "version": "4.20.0-0.nightly-2025-02-20-054819",
       "payload": "registry.ci.openshift.org/ocp/release@sha256:38cdbde476606104dc2944d4b3354a90efd8588de1757c4477e548287fca107f",
       "metadata": {
             "io.openshift.upgrades.graph.release.channels": "candidate-4.19"
@@ -21,7 +21,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.19.0-0.nightly-2025-02-20-003513", "to": "4.19.0-0.nightly-2025-02-20-054819"}
+        {"from": "4.19.0-0.nightly-2025-02-20-003513", "to": "4.20.0-0.nightly-2025-02-20-054819"}
       ],
       "risks": [
         {
