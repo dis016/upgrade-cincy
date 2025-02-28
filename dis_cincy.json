@@ -8,8 +8,8 @@
         }
     },
     {
-      "version": "4.19.0-0.nightly-2025-02-27-023749",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:81efe056c14ecfdfdfcb7b572146c806844dbf679a795c0902be65f9395abeff",
+      "version": "4.18.0-0.nightly-2025-02-27-051839",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:a36668755657b6e50b0443f8bb0335b91c6591bdcc92c6f5bc35bf11f8206884",
       "metadata": {
             "io.openshift.upgrades.graph.release.channels": "candidate-4.18"
         }
@@ -21,7 +21,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.18.0-0.nightly-2025-02-26-103013", "to": "4.19.0-0.nightly-2025-02-27-023749"}
+        {"from": "4.18.0-0.nightly-2025-02-26-103013", "to": "4.18.0-0.nightly-2025-02-27-051839"}
       ],
       "risks": [
         {
