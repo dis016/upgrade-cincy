@@ -1,15 +1,15 @@
 {
   "nodes": [
     {
-      "version": "4.19.0-0.nightly-2025-02-20-003513",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:86389d6c1d0a850e7cbb9ee4630f9d3622a2e07d69c21b321b5c2a939e567524",
+      "version": "4.18.0-0.nightly-2025-02-26-103013",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:f0c30b960dad31b600f3e5b59586441a7138408c4cdd6b0a25e9d9fcdfd1d693",
       "metadata": {
             "io.openshift.upgrades.graph.release.channels": "candidate-4.19"
         }
     },
     {
-      "version": "4.20.0-0.nightly-2025-02-20-054819",
-      "payload": "registry.ci.openshift.org/ocp/release@sha256:38cdbde476606104dc2944d4b3354a90efd8588de1757c4477e548287fca107f",
+      "version": "4.19.0-0.nightly-2025-02-27-023749",
+      "payload": "registry.ci.openshift.org/ocp/release@sha256:81efe056c14ecfdfdfcb7b572146c806844dbf679a795c0902be65f9395abeff",
       "metadata": {
             "io.openshift.upgrades.graph.release.channels": "candidate-4.19"
         }
@@ -21,7 +21,7 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.19.0-0.nightly-2025-02-20-003513", "to": "4.20.0-0.nightly-2025-02-20-054819"}
+        {"from": "4.18.0-0.nightly-2025-02-26-103013", "to": "4.19.0-0.nightly-2025-02-27-023749"}
       ],
       "risks": [
         {
