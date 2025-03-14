@@ -2,7 +2,7 @@
     "nodes": [
       {
         "version": "4.18.0-0.nightly-2025-03-13-035622",
-        "payload": "registry.ci.openshift.org/ocp/release@sha256:02cc2c69f1fc8fc4007631d5fb29c3fbcd6aaa4a4212f9669b580af7dad94e21",
+        "payload": "registry.ci.openshift.org/ocp/release@sha256:bf14436d2a3c279ecfe7d6ef542679447be203925fbd951e8e033818b35cde2b",
         "metadata": {
             "io.openshift.upgrades.graph.release.channels": "channel-a"
         }
