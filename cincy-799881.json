@@ -12,7 +12,7 @@
         "payload": "quay.io/openshift-release-dev/ocp-release@sha256:d2d34aafe0adda79953dd928b946ecbda34673180ee9a80d2ee37c123a0f510c",
         "metadata": {
             "url": "https://amd64.ocp.releases.ci.openshift.org/releasestream/4-dev-preview/release/4.y+1.0",
-            "io.openshift.upgrades.graph.release.channels": "channel-b"
+            "io.openshift.upgrades.graph.release.channels": "channel-a"
         }
       }
     ],
