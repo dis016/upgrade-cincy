@@ -1,7 +1,7 @@
 {
     "nodes": [
       {
-        "version": "4.18.0-0.nightly-2025-03-13-035622",
+        "version": "4.18.0-0.nightly-2025-03-18-125639",
         "payload": "registry.ci.openshift.org/ocp/release@sha256:bf14436d2a3c279ecfe7d6ef542679447be203925fbd951e8e033818b35cde2b",
         "metadata": {
             "io.openshift.upgrades.graph.release.channels": "channel-a"
@@ -22,7 +22,7 @@
     "conditionalEdges":[
       {
         "edges": [
-          {"from": "4.18.0-0.nightly-2025-03-13-035622", "to": "4.19.999"}
+          {"from": "4.18.0-0.nightly-2025-03-18-125639", "to": "4.19.999"}
         ],
         "risks": [
           {
