@@ -23,7 +23,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "1 * group(cluster_version)"
+                "promql": "0 * group1(cluster_version)"
               }
             }
           ]
