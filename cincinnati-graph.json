@@ -9,7 +9,7 @@
      },
      {
        "payload": "quay.io/openshift-release-dev/ocp-release@sha256:00000000000000000000000000000000000",
-       "version": "4.20-latest",
+       "version": "4.20.0-rc.latest",
        "metadata": {
 	          "io.openshift.upgrades.graph.release.channels": "channel-a"
         }
