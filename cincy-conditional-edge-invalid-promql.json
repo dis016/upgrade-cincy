@@ -1,18 +1,18 @@
 {
   "nodes": [
     {
-      "version": "4.20.0-rc.2",
-      "payload": "quay.io/openshift-release-dev/ocp-release@:sha256:71b3ab49573d115389214a6f9091251af6f07e14917356b86d594f7b8c90bb53"
+      "version": "4.21.0-rc.1",
+      "payload": "quay.io/openshift-release-dev/ocp-release@:sha256:884e1ff5effeaa04467fab9725900e7f0ed1daa89a7734644f14783014cebdee"
     },
     {
-      "version": "4.20.1",
+      "version": "4.21.1",
       "payload": "quay.io/openshift-release-dev/ocp-release@sha256:00000000000000000000000000000000000000000000000000000000003d5721"
     }
   ],
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.20.0-rc.2", "to": "4.20.1"}
+        {"from": "4.21.0-rc.1", "to": "4.21.1"}
       ],
       "risks": [
         {
@@ -23,7 +23,7 @@
             {
               "type": "PromQL",
               "promql": {
-                "promql": "0 * group(cluster_version)"
+                "promql": "0 * group1(cluster_version)"
               }
             }
           ]
