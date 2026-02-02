@@ -1,16 +1,16 @@
 {
   "nodes": [
     {
-      "version": "4.20.0-rc.2",
-      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:71b3ab49573d115389214a6f9091251af6f07e14917356b86d594f7b8c90bb53"
+      "version": "4.21.0-rc.2",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:d728de4be64b32806f3e46c87e16fe5b2988798fcea33f1ecb11d0aef705ecb2"
     },
     {
-      "version": "4.20.0-rc.3",
-      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:596f4d804654419241c1894fb6d54066718f254aab58dfa8892bb26390ba3df9"
+      "version": "4.21.0",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:9f42dbb302232b32a7b07cc284eee1c7d1bddf79be4ad88dae0598cbad0bb23e"
     },
     {
-      "version": "4.20.0-rc.4",
-      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:8970801dee5031571f971bdf922d351f884065ceb3e441c173c8350b3956a229"
+      "version": "4.21.0-rc.3",
+      "payload": "quay.io/openshift-release-dev/ocp-release@sha256:8970801dee5031571f971bdf922d153f884065ceb3e441c173c8350b3956a229"
     }
   ],
   "edges": [
@@ -20,11 +20,11 @@
   "conditionalEdges":[
     {
       "edges": [
-        {"from": "4.20.0-rc.2", "to": "4.20.0-rc.3"}
+        {"from": "4.21.0-rc.2", "to": "4.21.0-rc.3"}
       ],
       "risks": [
         {
-          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4-stable/release/4.20.0-rc.3",
+          "url": "https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4-stable/release/4.21.0-rc.3",
           "name": "ReleaseIsRejected",
           "message": "Too many CI failures on this release, so do not update to it",
           "matchingRules": [
